@@ -1,0 +1,56 @@
+.app-shell {
+  min-height: 100vh;
+  padding: 24px 28px;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.top-grid {
+  display: grid;
+  grid-template-columns: 2.2fr 1fr 1fr 1fr;
+  gap: 22px;
+  align-items: stretch;
+}
+
+.middle-grid {
+  display: grid;
+  grid-template-columns: 1.35fr 1.1fr 1.2fr;
+  gap: 22px;
+}
+
+.bottom-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.insights-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (max-width: 1500px) {
+  .top-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .middle-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 950px) {
+  .top-grid,
+  .middle-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .app-shell {
+    padding: 16px;
+  }
+}

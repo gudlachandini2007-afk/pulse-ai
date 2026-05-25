@@ -1,0 +1,131 @@
+.tasks-card {
+  min-height: 430px;
+}
+
+.tasks-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-tabs {
+  display: flex;
+  gap: 40px;
+  margin: 24px 0 28px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  padding-bottom: 18px;
+}
+
+.task-tabs span {
+  color: #94a3b8;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.active-tab {
+  color: white !important;
+  font-weight: 600;
+  border-bottom: 2px solid #7c3aed;
+  padding-bottom: 16px;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 18px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.03);
+}
+
+.task-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.task-checkbox {
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  border: 2px solid rgba(148,163,184,0.5);
+}
+
+.priority-badge {
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.priority-badge.high {
+  background: rgba(239,68,68,0.18);
+  color: #f87171;
+}
+
+.priority-badge.medium {
+  background: rgba(245,158,11,0.18);
+  color: #fbbf24;
+}
+
+.priority-badge.low {
+  background: rgba(34,197,94,0.18);
+  color: #4ade80;
+}
+
+.insights-main {
+  min-height: 260px;
+}
+
+.insights-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 28px;
+}
+
+.insight-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 18px;
+}
+
+.insight-pill {
+  padding: 24px 18px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.05);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.insight-icon {
+  font-size: 28px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 1400px) {
+  .insight-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .insight-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .task-tabs {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,125 @@
+.dashboard-header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 12px 10px 24px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #7c3aed, #2563eb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+.header-left h1 {
+  font-size: 34px;
+  letter-spacing: 1px;
+}
+.header-left p {
+  color: #94a3b8;
+  font-size: 18px;
+}
+
+.header-center {
+  text-align: center;
+}
+
+.header-center h2 {
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.header-center p {
+  color: #94a3b8;
+  font-size: 18px;
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.weather-mini,
+.refresh-mini {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: #cbd5e1;
+}
+
+.weather-mini strong,
+.refresh-mini strong {
+  font-size: 22px;
+}
+
+.briefing-card {
+  min-height: 430px;
+  background:
+    radial-gradient(circle at 70% 50%, rgba(99,102,241,0.22), transparent 30%),
+    rgba(10,20,45,0.78);
+}
+
+.briefing-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.briefing-left h2 {
+  font-size: 34px;
+  line-height: 1.2;
+}
+
+.briefing-left p {
+  color: #cbd5e1;
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+
+.briefing-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 18px;
+}
+
+.briefing-btn {
+  margin-top: 26px;
+  padding: 14px 24px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.briefing-orb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+}
+
+.orb {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 30% 30%, #ec4899, transparent 20%),
+    radial-gradient(circle at 70% 30%, #3b82f6, transparent 20%),
+    radial-gradient(circle, #312e81, #1e1b4b);
+  box-shadow:
+    0 0 60px rgba(99,102,241,0.5),
+    0 0 120px rgba(139,92,246,0.3);
+}
