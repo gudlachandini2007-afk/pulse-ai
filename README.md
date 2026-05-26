@@ -24,17 +24,6 @@ Pulse AI is a personalized AI-powered productivity dashboard built for busy IT p
 The dashboard is designed so any user can connect their own Google and GitHub accounts to access personalized real-time productivity data instead of static demo content.
 
 ---
-
-## Live Demo
-
-Try the deployed dashboard here:
-
-https://pulseai-dashboard.netlify.app/
-
-This allows reviewers to instantly test the project without local setup.
-
----
-
 ## Features
 
 - Live Weather Updates (location-based)
@@ -271,6 +260,17 @@ No hardcoded personal data is required.
 - Mobile responsiveness optimization
 - Secure backend proxy for API protection
 - Multi-user settings customization
+
+---
+
+
+## Live Demo
+
+Try the deployed dashboard here:
+
+https://pulseai-dashboard.netlify.app/
+
+This allows reviewers to instantly test the project without local setup.
 
 ---
 
