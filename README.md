@@ -267,8 +267,8 @@ No hardcoded personal data is required.
 ## Live Demo
 
 Try the deployed dashboard here:
+https://pulseai-livedata.netlify.app/
 
-https://pulseai-dashboard.netlify.app/
 
 This allows reviewers to instantly test the project without local setup.
 
